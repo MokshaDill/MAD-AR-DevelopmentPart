@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:mad_project/components/back_dots.dart';
+import 'package:mad_project/pages/ar_pages/ar_location_page.dart';
 
 import 'navigator_map.dart';
 import 'navigator_step.dart';
@@ -66,7 +67,7 @@ class _ModeSelectorState extends State<ModeSelector> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => NavigatorStepPage()),
+                            builder: (context) => ArLocation()),
                       );
                     },
                   ),
